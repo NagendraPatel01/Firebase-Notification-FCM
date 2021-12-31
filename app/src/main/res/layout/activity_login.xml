@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginHorizontal="20dp"
+     android:textStyle="bold"
+     android:textSize="18sp"
+     android:layout_marginTop="7dp"
+     android:textColor="#000"
+     android:layout_gravity="end"
+     android:text="Login">
+
+ </TextView>
+
+ <de.hdodenhof.circleimageview.CircleImageView
+     android:layout_width="200dp"
+     android:layout_height="200dp"
+     android:src="@drawable/virat"
+     android:layout_gravity="center"
+     android:layout_marginTop="30dp">
+
+ </de.hdodenhof.circleimageview.CircleImageView>
+
+
+ <androidx.cardview.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:cardCornerRadius="10dp"
+     android:layout_marginHorizontal="15dp"
+     android:layout_marginTop="20dp">
+
+
+  <EditText
+      android:id="@+id/email"
+      android:padding="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@null"
+      android:hint="Enter Email"
+      android:textColor="#000"
+      android:textSize="15dp"
+      android:layout_marginHorizontal="8dp">
+
+  </EditText>
+
+ </androidx.cardview.widget.CardView>
+
+
+ <androidx.cardview.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:cardCornerRadius="10dp"
+     android:layout_marginHorizontal="15dp"
+     android:layout_marginTop="20dp">
+
+
+  <EditText
+      android:id="@+id/password"
+      android:padding="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@null"
+      android:hint="Enter Password"
+      android:textColor="#000"
+      android:textSize="15dp"
+      android:layout_marginHorizontal="8dp">
+
+  </EditText>
+
+ </androidx.cardview.widget.CardView>
+
+
+ <Button
+     android:id="@+id/login"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginTop="20dp"
+     android:textSize="15dp"
+     android:textColor="#fff"
+     android:text="Login"
+     android:textStyle="bold"
+     android:backgroundTint="#E91E63">
+
+ </Button>
+
+ <TextView
+     android:id="@+id/ragister"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginHorizontal="20dp"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     android:layout_marginTop="7dp"
+     android:textColor="#000"
+     android:layout_gravity="center"
+     android:text="Don't have an account? Ragister">
+
+ </TextView>
+
+
+</LinearLayout>

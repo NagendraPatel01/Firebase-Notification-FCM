@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@drawable/alluser"
+        android:title="All User"
+        android:id="@+id/alluser"></item>
+
+    <item android:icon="@drawable/topic"
+        android:title="Topic"
+        android:id="@+id/topic"></item>
+
+    <item android:icon="@mipmap/notification"
+        android:title="Notification"
+        android:id="@+id/notification"></item>
+
+    <item android:icon="@drawable/person"
+        android:title="profile"
+        android:id="@+id/profile"></item>
+
+
+</menu>
